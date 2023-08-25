@@ -1,0 +1,154 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+h1 {
+    color: #9AC5F4;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    color: #9AC5F4;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    color: #FFEEBB;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h4{
+    color: #99DBF5 ;
+}
+
+hr{
+    border: dotted #FFEEBB 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.first-container {
+    background-color: #FFEEBB;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.console {
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    right: 250px;
+}
+
+.note {
+    position: absolute;
+    height: 100px;
+    left: 250px;
+    bottom: 300px;
+}
+
+.gamer{
+    margin-top: 5rem;
+    height: 250px;
+    margin-bottom: 0;
+}
+
+.second-container .profile img{
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.second-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.card img{
+    width: 250px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+.contact{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact h3, h4,p, a{
+    margin: 50px;
+}
+
+.btn{
+    background-color: #99DBF5;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.btn:hover{
+    color: #FFEEBB;
+    background-color: #A7ECEE;
+}
+
+.footer{
+    background-color: #FFEEBB;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    margin: 10px;
+    color: #9AC5F4;
+}
+
+.footer a:hover{
+    color: #99DBF5;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skills{
+        text-align: center;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat( 1fr);
+        margin: 0 auto 0 auto;
+        width: 50%;
+        row-gap: 2rem;
+    }
+    .card h4,p, img {
+        text-align: center;
+    }
+  }
